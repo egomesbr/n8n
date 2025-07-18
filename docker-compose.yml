@@ -1,8 +1,8 @@
 ### YML file
 services:
   n8n:
-    image: n8nio/n8n
-    restart: always
+    image: n8nio/n8n:latest
+    restart: unless-stopped
     container_name: n8n-server  # Custom container name
     ports:
       - "5678:5678"
