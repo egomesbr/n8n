@@ -15,6 +15,39 @@ N8N_COMMUNITY_PACKAGES_ALLOY_TOOL_USAGE     true
 WEBHOOK_URL                                 https://quiet-grackle-uniquely.ngrok-free.app
 N8N_DEFAULT_BINARY_DATA_MODE                filesystem
 
+===================================
+
+# Pull latest version
+docker compose pull
+
+# Stop and remove older version
+docker compose down
+
+# Start the container
+docker compose up -d
+
+==========================
+
+
 
 Deploy with your static domain!
-ngrok http --url=quiet-grackle-uniquely.ngrok-free.app 8080
+ngrok http --url=quiet-grackle-uniquely.ngrok-free.app 5678
+
+
+============
+
+Updating Docker Compose#
+If you run n8n using a Docker Compose file, follow these steps to update n8n:
+
+
+# Navigate to the directory containing your docker compose file
+cd </path/to/your/compose/file/directory>
+
+# Pull latest version
+docker compose pull
+
+# Stop and remove older version
+docker compose down
+
+# Start the container
+docker compose up -d
