@@ -11,10 +11,9 @@ CONTAINER PATH:  /home/node/.n8n
 
 
 N8N_EDITOR_BASE_URL                         https://quiet-grackle-uniquely.ngrok-free.app
-N8N_COMMUNITY_PACKAGES_ALLOY_TOOL_USAGE     true
 WEBHOOK_URL                                 https://quiet-grackle-uniquely.ngrok-free.app
 N8N_DEFAULT_BINARY_DATA_MODE                filesystem
-
+N8N_COMMUNITY_PACKAGES_ALLOw_TOOL_USAGE     true
 ===================================
 
 # Pull latest version
